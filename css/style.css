@@ -1,0 +1,101 @@
+text:focus {outline:0;}
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  height: 100%;
+}
+
+h4 { 
+  text-align: center;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 35px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.black-half{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  background : #000000;
+  background : rgba(0, 0, 0, 1);
+  width: 50%;
+  z-index: -1; 
+}
+
+.white-half{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  width: 50%;
+  z-index: -1;
+}
+
+.wiki{
+  margin-right: 5px;
+  margin-top: 15px;
+  font-family: 'Spinnaker', sans-serif;
+  font-size : 120px;
+  color: #FFFFFF;
+}
+
+.view{
+  margin-left: 2px;
+  margin-top: 15px;
+  font-family: 'Spinnaker', sans-serif;
+  font-size : 120px;
+  color: #000000;
+}
+
+.get-rand-wiki{
+  position: absolute;
+  left: 35%;
+  top: 40%;
+}
+
+.search-button{
+  position: absolute;
+  left: 37%;
+  top: 40%;
+}
+
+.search-bar{
+  width: 0;
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  font-size: 40px;
+  font-family: 'Spinnaker', sans-serif;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.back-button{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100px;
+}
+
+.result-div{
+  background: black;
+  width: 800px;
+  margin: 30px auto;
+  padding: 40px;
+  color: white;
+}
+
